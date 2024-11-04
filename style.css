@@ -1,0 +1,425 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #fff;
+
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    display: flex;
+  background-color: rgb(30, 2, 35);
+  
+    padding-left: 60vw;
+    padding-right: 8vw;
+    justify-content: space-between;
+    padding-top: 1vw;
+    position: relative;
+
+}
+#nav h3{
+    margin-bottom: 1.3vw;
+    color: rgb(194, 188, 188);
+    font-weight: 100;
+    
+}
+/*.icon i {
+    color: white;
+    font-size: 0.5vw;
+    font-weight: 100;
+}*/
+#nav h3:hover{
+    color: #fff;
+}
+#nav2{
+    display: flex;
+    height: 12vh;
+    width: 100%;
+    font-size: 1.5vh;
+    padding-right: 10vw;
+    background-color:rgb(46, 42,78);
+    justify-content: space-between;
+  
+
+}
+#nav2 h2{
+    margin-top: 1.5vw;
+    color: rgb(194, 188, 188);
+    
+}
+#nav2 svg{
+    margin-top: 1.3vw;
+}
+#nav2 i{
+     background-color: rgb(232, 30, 23);
+}
+#nav2 h2:hover{
+    color: #fff;
+}
+#nav2 button{
+    height: 5vh;
+    width: 17vh;
+    border-radius: 50px;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    margin-top: 1.2vw;
+}
+#nav2 .cont{
+    border-color: white;
+    background-color:rgb(46, 42,78);
+    color: white;
+    font-weight: 700;
+    font-size: 0.9vw;
+
+}
+#nav2 .cont:hover{
+    background-color:rgb(86, 77, 164) ;
+}
+#nav2 .plans:hover{
+    background-color:rgb(248, 88, 150);
+}
+#nav2 .plans{
+    background-color:rgb(245, 8,99);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 0.8vw;
+}
+#blogs{
+    height: 32vh;
+    width: 100%;
+    background: url(https://www.pluralsight.com/etc.clientlibs/ps/clientlibs/clientlib-site/resources/images/simple-hero/simple-hero-stripes.png);
+    background-color:rgb(49, 43, 99);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    
+}
+#blogs h1{
+    color:white;
+    font-family: "PS Commons Bold", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 3vw;
+    font-weight: 800
+ }
+#page-heading h2{
+    color: black;
+    font-size: 4vh;
+    
+   font-weight: 900;
+    margin-top: -20vh;
+    padding-top: 3vh;
+    padding-left: 7vw;
+}
+.text{
+    color: rgb(116, 114, 114);
+    font-size: 0.9vw;
+  /*background-color: blue;*/
+    margin-left: 6.5vw;
+    margin-bottom: 1vw;
+    margin-top: -3vw;
+    width: 15%;
+}
+  .box{
+    height: 8vh;
+    width: 70%;
+   /*background-color: rgb(106, 54, 219);*/
+    position: relative;
+    margin-left: -6vw;
+    border-radius: 50px;
+   /* border: 1px solid black;*/
+}
+.box img{
+    height: 4.9vh;
+    width: 4vw;
+    padding-top: 2vh;
+    
+    padding-left: 1vw;
+   position: absolute;
+
+   
+}
+.box .form{
+    height: 7.9vh;
+    width: 69.2vw;
+   /* border-end-end-radius: 60px;
+    border-top-right-radius:50px ;
+    border-left-color: transparent;
+    border-top: transparent;*/
+    border: none;
+    border-radius: 50px;
+    margin-left: 0vw;
+    margin-top: 0vw;
+    color: black;
+   /* background-color: red;*/
+   /* position:absolute;*/
+}
+#page-heading{
+  background-color:whitesmoke;
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    top: 0;
+}
+.page1{
+   min-height: 100vh; 
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.page1-right{
+   /* margin-top: 38vw;*/
+    min-height: 100vh; 
+    width: 75%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+}
+.page1-right .card{
+    height:50vh ; 
+    width: 18.5vw;
+    background-color: #fff;
+    border-radius: 25px;
+    margin-top: 10vh;
+    margin-left: 7vh;
+    
+    
+}
+.page1-left{
+  /*  margin-top: 38vw;*/
+    height: 180vh;
+    width: 25%;
+    background-color: whitesmoke;
+}
+.page1-left h2{
+    color: black;
+    margin-left: 6.5vw;
+}
+.page1-left h4{
+    color: black;
+    margin-left: 6.4vw;
+    margin-top: 2vw;
+    font-size: 1vw;
+    border-bottom: 0.5px solid rgb(182, 178, 178);
+    width: 65%;
+}
+.page1-left .checkbox{
+    color: black;
+    font-size: 1vw;
+    margin-left: 6.4vw;
+    margin-top: 1vw;
+    line-height: 5vh;
+}
+.page1-left button{
+    font-size: 1vw;
+    font-weight: 700;
+    color: black;
+    background-color: #fff;
+    width: 70%;
+    margin-left: 6.4vw;
+    margin-top: 1vw;
+    height: 6vh;
+    border-radius: 50px;
+}
+.page1-left button:hover{
+    background-color: black;
+    color: #fff;
+}
+.card img{
+   width: 100%;
+    height: 50%;
+    border-radius: 30px;
+    padding: 1vw 1vw;
+    
+    
+}
+.card h3{
+    color: black;
+    padding: 1vw 1vw;
+}
+.card p{
+    color: black;
+    padding: 0.5vw 1vw;
+    font-size: 1vw;
+}
+.card span{
+    color: red;
+    
+  font-weight: 700;
+  padding: 2vw 1vw;
+    font-size: 1.3vw;
+}
+
+.card svg{
+   padding-top: 0.7vw;
+   margin-bottom: 0.2vh;
+   font-weight: 100;
+ /*  background-color: aqua;*/
+    height: 5vh;
+    width: 4vw;
+}
+.card .blog{
+    font-size: 1vw;
+    height: 4vh;
+    width: 6%;
+    color: white;
+    border: none;
+    font-weight: 500;
+    margin-top: 4vh;
+    margin-left: 11vw;
+    text-align: center;
+    border-radius: 50px;
+    background-color:red;
+    position:absolute;
+}
+.pageno{
+    height: 40vh;
+    width: 100%;
+    background-color:whitesmoke;
+    padding-left: 38vw;
+    display: flex;
+    align-items: center;
+   /* justify-content: space-between;*/
+    
+}
+.pageno .gola{
+    height: 40px;
+    width:40px;
+    
+    border-radius: 50%;
+    background-color:rgba(222, 222, 222, 0.731);
+    margin-left: 1.5Svw;
+}
+.gola h3{
+    padding-top: 1vh;
+    text-align: center;
+    color: black;
+    
+}
+.pageno #dotdot{
+    background-color:whitesmoke;
+}
+.page2{
+    height: 55vh;
+    width: 100%;
+    background-color:rgb(46, 42,78);
+    display: flex;
+}
+.page2 .box1{
+    height: 50.1vh;
+    width:17% ;
+   /* background-color: blue;*/
+    margin-left: 6.5vw;
+    margin-top: 4.5vh;
+}
+.page2 .box2{
+    height: 50.1vh;
+    width:17% ;
+   /* background-color: rgb(255, 0, 195);*/
+    margin-top: 4.5vh;
+}
+.page2 .box3{
+    height: 50.1vh;
+    width:17% ;
+    margin-top: 4.5vh;
+   /* background-color: rgb(138, 30, 227);*/
+}
+.page2 .box4{
+    height: 50.1vh;
+    margin-top: 4.5vh;
+    width:17% ;
+   /* background-color: rgb(23, 157, 240);*/
+}
+.page2 .box5{
+    height: 50.1vh;
+    margin-top: 4.5vh;
+    width:19%;
+   /* background-color: rgb(228, 220, 227);*/
+}
+.page2 h2{
+    font-size: 1.5vw;
+    margin-bottom: 2.5vh;
+    
+   
+}
+.page2 h3{
+    font-size: 1vw;
+    line-height: 4vh;
+   color:#8e93c2; ;
+    margin-top: 2v;
+    
+}
+.page2 h3:hover{
+    color: whitesmoke;
+}
+.box5 .email{
+    height: 6vh;
+    width: 18.9vw;
+    border-radius: 10px;
+    background-color:rgb(51, 45, 98) ;
+    margin-top: 3vh;
+
+}
+.box5 .heybox{
+    display: flex;
+    margin-top: 3vh;
+    
+}
+.box5 .heybox h4{
+    color: #8e93c2;
+
+}
+.box5 .submit{
+    height: 6vh;
+    width: 8vw;
+    font-size: 1vw;
+    margin-top: 4vh;
+    background-color: rgb(245, 8,99);
+    border-radius: 50px;
+}
+.box5 .submit:hover{
+    background-color: rgb(248, 88, 150);
+}
+.box5 a{
+    font-size: 3vw;
+    color: #8e93c2;
+}
+.box1 {
+    border-bottom: 1px solid #8e93c2;
+}
+.box2 {
+    border-bottom: 1px solid #8e93c2;
+}
+.box3 {
+    border-bottom: 1px solid #8e93c2;
+}
+.box4 {
+    border-bottom: 1px solid #8e93c2;
+}
+.box5 {
+    border-bottom: 1px solid #8e93c2;
+}
+nav{
+    height: 15vh;
+    width: 100%;
+    background-color:rgb(46, 42,78);
+    padding-left: 7vw;
+    padding-top: 5vh;
+    
+}
+nav .copyright{
+    color: #8e93c2;
+    font-size: 1.1vw;
+    margin-left: 1vw;
+  
+   
+}
+nav .copyright:hover{
+    color: #fff;
+}
